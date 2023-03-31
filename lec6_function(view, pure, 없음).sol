@@ -23,6 +23,7 @@ contract lec6{
     function viewExample() public view returns(uint256){
         return a+2;
     } // a 값을 변경하지 않고 +2 해서 보여주겠다
+    // function 밖에 있는 a를 가지고 와 그냥 return 만 한 것을 보여줌 > a 값 변경되지 x
     
     function readAndChangeA() public returns(uint256){
         a = 3;
