@@ -1,4 +1,7 @@
-// SPDX-license-Identifier : GPL-30
+// SPDX-License-Identifier: GPL-3.0 
+
+// GPL 라이선스: 기본적으로 배포하는 순간 내 소스코드 공개, 어디서 가져왔는지 명시해야 
+// MIT, Apache, BSD: 가져다 써도 되고 공헌 하지 않아도 됨, but 출처는 공개해야 
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract Hello{
