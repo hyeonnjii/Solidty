@@ -27,3 +27,5 @@ contract lec5{
     // ex. external 함수를 사용하면 다른 함수가 해당 함수를 instance로 사용할 때 가능! 자기자신이 아니니까
     
 }
+
+// view vs. pure
