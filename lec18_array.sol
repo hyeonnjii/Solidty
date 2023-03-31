@@ -1,4 +1,4 @@
-// SPDX-License-Identifier:GPL-30
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
  
  // array : length 구할 수 있음 (50으로 제한 시키는 것이 좋음), key는 자동으로 0부터 실행됨
@@ -11,6 +11,7 @@ contract lec18{
     uint256[10] public ageFixedSizeArray; // 배열의 length 값 설정 > 0-9 인덱스까지만 지정가능
     string[] public nameArray= ["Kal","Jhon","Kerri"]; // 배열의 값을 미리 지정할 수 있음
   
+    // array 길이 구하기 .length
     function AgeLength()public view returns(uint256) {
         return ageArray.length; // array 배열의 length 구할 수 있음(.length)
     }
@@ -43,6 +44,10 @@ contract lec18{
     function AgePop(uint256 _index)public {
         delete ageArray[_index];
     }
+    
+    function examples() external {
+     // create array in memory, only fixed size can be created
+     uint[] memory a = new uint[](5); > 5 라는 fixed size 가 지정되어야 함! > memory 니까!!
 
 
 }
