@@ -18,7 +18,7 @@ contract lec24{
             // 문자열 비교하기 위해서는 byte 화 한후, 내장함수를 이용하여 hash 화를 해야 해
             // 만약 값이 같다면, 같은 해시값을 가지고 있음
             if(keccak256(bytes(countryList[i])) == keccak256(bytes(_search))){
-                return (i,countryList[i]);
+                return (i,countryList[i]); // index 와 해당 값 반환
             }
         }
         
