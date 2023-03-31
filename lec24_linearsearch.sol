@@ -3,6 +3,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 // linear search: 배열의 값을 검색해서 찾아오기 위해
+// solidity 에서는 string 비교 불가 > byte 화 변환 후 내장함수 를 통한 해쉬화  > 같은 해쉬가 나온다면, 해당 값을 return 을 나옴
 
 contract lec24{
     
